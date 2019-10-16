@@ -1,0 +1,30 @@
+pop-up code which asks for input like email and a submit button
+
+if a particular function appears twice as elements should we test both ? eg register.
+
+https://phptravels.com
+
+your scenarios are your test.
+your scenarios are your test.
+
+A page object represents an area in the web application user interface that your test is interacting.”
+The page object pattern intends creating an object for each web page.
+ following this technique a layer of separation between the test code and technical implementation is created.
+
+//input[@value='Login']
+
+//*[@id="containerNewUserSignup"]/div[2]/div[4]/div/div/div/div/div[3]
+
+testcase1 : User registration
+testcase2 : User login
+
+testcase3: Hotel Search
+flow: User searches by cityname , checkin/checkout dates, travellers
+user clicks on "search" , shows search results with "hotel details" and "filters"
+User sets "filters" and click on a hotel "Details" and move to hotel "book now" page
+Here the user clicks on book now and move to final booking page wherein he needs to enter userdata and payment data.
+
+bug-pointers->
+
+search logic
+booking logic

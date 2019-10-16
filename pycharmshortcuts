@@ -1,0 +1,121 @@
+PyCharm Cheat Sheet
+Editing I
+
+ctrl+[SPACE]  Complete code
+shift+ctrl+/    Comment/uncomment code with block comments
+ctrl+/  Comment/uncomment current line or selected block with line comments
+shift+ctrl+↵    Complete Current Statement
+ctrl+I  Implement base interface/class methods in the current class
+ctrl+O  Override base class methods in the current class
+ctrl+P  Show parameters of the method call at caret
+alt+ctrl+T  Surround selected code fragment with if, while, try/catch or other construct
+
+Editing II
+
+alt+ctrl+IIndent current line or selected block according to the code style settings
+ctrl+CCopy to clipboard
+ctrl+XCut to clipboard
+ctrl+VPaste from clipboard
+shift+ctrl+VPaste from recent clipboards
+shift+alt+ctrl+VPaste without formatting, autoimport, literal escaping etc.
+alt+ctrl+LReformat code
+alt+↵Show Intention Actions
+shift+TABUnindent Selection
+
+Editing III
+ctrl+YDelete Line
+ctrl+DELDelete to Word End
+ctrl+BACKSPACEDelete to Word Start
+ctrl+DDuplicate Line or Block
+ctrl+=Expand folding region at caret
+shift+ctrl+=Expand all folding regions
+shift+ctrl+JJoin Lines
+ctrl+↵Split Line
+shift+↵Start New Line
+alt+ctrl+↵Start New Line Before Current
+shift+ctrl+UToggle Case
+
+Running / Debugging
+shift+F10Run
+shift+F9Debug
+alt+5Activate Debug window
+shift+alt+F9Choose and debug configuration
+alt+F8Evaluate arbitrary expression
+F9Resume program execution
+shift+ctrl+F10Run context configuration
+alt+F9Run to the line where the caret is
+shift+alt+F10Choose and run configuration
+shift+F7Step into the particular method
+F7Step to the next line executed
+shift+F8Step to the first line executed after returning from this method
+F8Step to the next line in this file
+shift+ctrl+F8View and manage all breakpoints and watchpoints
+
+Navigation I
+ctrl+BNavigate to the declaration of the symbol at caret
+ctrl+0Go to Bookmark 0
+ctrl+1Go to Bookmark 1
+ctrl+2Go to Bookmark 2
+ctrl+3Go to Bookmark 3
+ctrl+4Go to Bookmark 4
+alt+ctrl+F4Open image in external editor
+alt+HOMEJump to Navigation Bar
+F4Open editor for the selected item and give focus to it
+ctrl+EShow list of recently viewed files
+shift+ctrl+EShow list of recently changed files
+alt+ctrl+HOMENavigate to one of the related or linked files
+alt+RIGHTActivate next tab
+shift+alt+RIGHTSelect Next Tab in multi-editor file
+alt+LEFTActivate previous tab
+shift+alt+LEFTSelect Previous Tab in multi-editor file
+
+Navigation II
+alt+ctrl+HBrowse call hierarchy for the selected method
+ctrl+5Go to Bookmark 5
+ctrl+6Go to Bookmark 6
+ctrl+7Go to Bookmark 7
+ctrl+8Go to Bookmark 8
+ctrl+9Go to Bookmark 9
+alt+ctrl+BNavigate to the implementation of class or method
+shift+ctrl+BACKSPACEMove through the most recent change points
+shift+ctrl+HBrowse method hierarchy for the selected method
+F2Navigate to the next highlighted error in the active editor
+shift+F2Navigate to the previous highlighted error in the active editor
+ctrl+UNavigate to the declaration of the method that current method overrides or implements
+shift+ctrl+0Toggle Bookmark 0
+shift+ctrl+1Toggle Bookmark 1
+shift+ctrl+2Toggle Bookmark 2
+shift+ctrl+3Toggle Bookmark 3
+ctrl+F11Toggle Bookmark With Mnemonic
+ctrl+HBrowse hierarchy for the selected class
+
+Navigation III
+ctrl+]Move Caret to Code Block End
+shift+ctrl+]Move Caret to Code Block End with Selection
+ctrl+[Move Caret to Code Block Start
+shift+ctrl+[Move Caret to Code Block Start with Selection
+shift+ENDMove Caret to Line End with Selection
+shift+HOMEMove Caret to Line Start with Selection
+shift+ctrl+RIGHTMove Caret to Next Word with Selection
+ctrl+HOMEMove Caret to Text Start
+shift+alt+DOWNMove selected lines one line down
+shift+alt+UPMove selected lines one line up
+F7Move to the Next Difference
+shift+F7Move to the previous difference
+
+Refactoring
+shift+F5Create a copy of the selected class, file or directory in the same package/directory
+alt+ctrl+CReplace selected expression with a constant
+shift+alt+ctrl+CCopy reference to selected class, method or function
+F5Create a copy of the selected class
+alt+ctrl+NInline the selected method or variable
+alt+ctrl+MTurn the selected code fragment into a method
+F6Move the selected class, method, package or static member to another package or class and correct all references
+alt+ctrl+PTurn the selected expression into method parameter
+shift+F6Rename the selected symbol and correct all references
+alt+DELDelete the selected class, method or field, checking for usages
+alt+ctrl+JSurrounds the selection with one of the template
+alt+ctrl+VPut a result of the selected expression into a variable
+Blog About Privacy Policy Terms of Service Pricing
+
+
