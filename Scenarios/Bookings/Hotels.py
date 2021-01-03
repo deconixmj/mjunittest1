@@ -40,8 +40,3 @@ class Hotelbookcase(unittest.TestCase):
     def tearDownClass(cls):
         pass
 
-
-# rh.mikk-01_01@gmail.com
-# Rahmi123#
-
-#Login.do_login("rh.mikk-01_01@gmail.com","Rahmi123#")
